@@ -1,12 +1,3 @@
-echo "# testrepo1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git commit - m "secret pass123"
-git 
-git branch -M main
-git remote add origin https://github.com/pradeepsaran/testrepo1.git
-git push -u origin main
 echo "AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE" >> .env
 git add .env
 git commit -m "added aws key to env"
